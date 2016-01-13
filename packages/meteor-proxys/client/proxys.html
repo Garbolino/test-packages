@@ -1,0 +1,14 @@
+<template name="proxys">
+  <div class="tabularProxyTable" style="margin:20px;">
+    {{> tabular table=TabularProxyTables.Proxys class="table table-hover"}}
+  </div>
+</template>
+
+<template name="proxyActions">
+  <button type="button" class="btn btn-sm btn-danger proxys-disable-proxy">
+    <i class="fa fa-close"></i> Disable
+  </button>
+  <button type="button" class="btn btn-sm btn-danger proxys-test-proxy">
+    <i class="fa fa-dot-circle-o"></i> Test
+  </button>
+</template>
