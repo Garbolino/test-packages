@@ -1,0 +1,15 @@
+<head>
+  <title>test-packages</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor-Proxys!</h1>
+  <p>Please, login to be able to see data</p>
+  <div>{{> loginButtons }}</div>
+  {{> hello}}
+</body>
+
+<template name="hello">
+  {{> proxyPackages}}
+  {{> proxys}}
+</template>
